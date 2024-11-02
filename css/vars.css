@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: rgb(225, 225, 225); 
+    --color-secondary-1: rgb(215, 140, 67); 
+    --color-secondary-2: rgb(187, 187, 187); 
+    --background-color: rgb(25, 25, 27); 
+    scroll-behavior: smooth;
+    font-family: Asap, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
