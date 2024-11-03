@@ -1,3 +1,5 @@
+@import url('https://fonts.google.com/share?selection.family=Asap:ital,wght@0,100..900;1,100..900');
+
 *,
 *::before,
 *::after {
@@ -7,10 +9,12 @@
 }
 
 :root {
-    --color-primary: rgb(225, 225, 225); 
-    --color-secondary-1: rgb(215, 140, 67); 
-    --color-secondary-2: rgb(187, 187, 187); 
-    --background-color: rgb(25, 25, 27); 
+    --color-main: #ffffff; 
+    --color-grey: #656160; 
+    --color-lightgrey: #d8d8d8; 
+    --background-color: #111111; 
+    --border--color: #1b1b1b;
+    --color-button: #2252f6;
     scroll-behavior: smooth;
     font-family: Asap, sans-serif;
 }
