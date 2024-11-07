@@ -1,40 +1,75 @@
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1200px;
-}
-
 .footer {
     background-color: var(--color-black);
+    display: flex;
+    padding: 20px;
+}
+
+.contacts-info {
+    flex: 1;
 }
 
 .footer__title {
     color: var(--color-main);
-    padding: 20px;
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 48px;
+    padding: 0 0 10px 0;
 }
 
 .footer__subtitle {
     color: var(--color-grey);
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 26px;
-    padding: 20px;
+    font-size: 16px;
+    padding: 0 0 20px 0;
 }
 
 .footer__heading {
     color: var(--color-main);
-    font-size: 21px;
-    font-weight: 600;
-    line-height: 28px;
-    padding: 20px;
+    font-size: 18px;
+    margin: 10px 0;
 }
 
 .footer__text {
     color: var(--color-grey);
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 26px;
+    font-size: 14px;
 }
+
+.contacts-form {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid var(--border-color);
+    max-width: 500px;
+}
+
+.contacts-form input[type="text"],
+.contacts-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 2px solid var(--color-button);
+    background-color: var(--color-black);
+    color: var(--color-main);
+}
+
+.contacts-form input::placeholder {
+    color: var(--color-footer);
+}
+
+.contacts-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-button);
+    border: none;
+    border-radius: 4px;
+    color: var(--color-main);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacts-form button:hover {
+    background-color: var(--color-main);
+    color: var(--color-black);
+}
+
+
+
