@@ -4,14 +4,17 @@
     max-width: 1200px;
 }
 
-.services__title {
+.services {
     margin-top: 310px;
+}
+
+.services__title {
+    padding: 20px 0;
     color: var(--color-main);
     font-size: 39px;
     font-weight: 700;
     line-height: 43px;
     text-align: center;
-    padding: 20px;
 }
 
 .services__subtitle {
@@ -28,6 +31,7 @@
 }
 
 .services__cards {
+    padding: 60px 0;
     display: flex;
     justify-content: center;
     gap: 20px;
